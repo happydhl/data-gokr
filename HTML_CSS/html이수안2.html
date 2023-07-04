@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <form name="fname" action="sign.jsp" method="post">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" value="덕" size="20">
+        <select id="food" name="food">
+            <option value="pizza" selected>피자</option>
+            <option value="hamburger" selected>햄버거</option>
+            <option value="pastar" selected>파스타</option>
+        </select>
+    </form>
+
+    <select id="food" name="food" multiple>
+        <optgroup label="음식">
+          <option value="pizza" selected>피자</option>
+          <option value="hamburger">햄버거</option>
+          <option value="pasta">파스타</option>
+        </optgroup>
+        <optgroup label="후식">
+          <option value="cola">콜라</option>
+          <option value="coffee">커피</option>
+          <option value="icecream">아이스크림</option>
+        </optgroup>
+      </select>
+      <br />
+      <span><a href="http://www.suanlab.com" target="if1">SuanLab</a></span> | 
+      <span><a href="C:/Users/UserK/Desktop/몽골트랙킹-사진/20230522_095057.jpg"  class="card-img"  target="if1"> 몽골사진</a></span><br>
+      <iframe name="if1" width="700px" height="300px"></iframe>
+      
+      <form name="signUp" action="signUp.jsp" method="post">
+        <fieldset width="500px" height="600px">
+          <legend>회원가입  </legend>
+          아이디 : <input type="text" name="id" placeholder="아이디를 입력 해주십시오." required>
+          <button type="button" onclick="alert('사용가능한 아이디 입니다!')">아이디 확인</button><br><br>
+          비밀번호 : <input type="password" placeholder="8글자 이상 입력 해주십시오." required><br><br>
+          생년월일 : <input type="date" name="birthday"><br><br>
+          이메일 : <input type="email" name="email" placeholder="이메일을 기입해주십시오." required><br><br>
+          전화번호 : <input type="tel" name="tel" placeholder="연락처를 기입해주십시오." required><br><br>
+          사이트를 알게된 경로:<br>
+          <input type="checkbox" name="a" value="serch">검색
+          <input type="checkbox" name="a" value="friend">친구
+          <input type="checkbox" name="a" value="recommend">추천
+          <input type="checkbox" name="a" value="adv">광고
+          <input type="checkbox" name="a" value="ect">기타
+        </fieldset>
+        <button type="submit">회원가입</button>
+        <button type="reset">다시 입력</button>
+      </form>
+</body>
+</html>

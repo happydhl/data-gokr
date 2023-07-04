@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <style>
+            p {
+                background-color: yellow;
+                
+            }
+            #id1 {
+                color: yellow;
+                background-color: black;
+            }
+            .class1 {
+                color: blue;
+                background-color: yellow;
+            }
+            p.class1 {
+               color: red;
+               background-color: navy;
+
+            }
+            h1 {
+                color: green;
+            }
+            h1[text] {
+                color: purple;
+            }
+            input[type="password"] {
+                background-color: yellow;
+            }
+        </style> -->
+        <style>
+            a:link { color: blue; }
+            a:visited { color: purple; }
+            a:hover { color: red; }
+            a:active { color: black; }
+        
+            div.d1:hover { background-color: yellow; }
+          </style>
+          <style>
+            th:first-child { border-radius: 10px 0 0 0; }
+            th:last-child { border-radius: 0 10px 0 0; }
+            tr:nth-child(2n) { background-color: skyblue; }
+            tr:nth-child(2n+1) { background-color:lightblue; }
+            td:hover { background-color: royalblue; }
+        </style>
+    </head>
+    <body>
+        <p>p</p>
+        <p id="id1">id1인 p</p>
+        <p class="class1">class1인 p</p>
+        <p class="class2">class2인 p</p>
+        <h1>h1</h1>
+        <h1 text="h1_text">text 속성 h1</h1>
+        <form>
+            <input type="password"><br>
+        </form>
+
+        <a href="http://www.google.com">구글 링크</a>
+        <div class="d1">
+            <p>div영역</p>
+            <p>class=d1</p>
+        </div>
+        <table>
+            <tr>
+                <th>Head</th>
+                <th>Head</th>
+                <th>Head</th>
+            </tr>
+            <tr>
+                <td>Body</td>
+                <td>Body</td>
+                <td>Body</td>
+            </tr>
+            <tr>
+                <td>Body</td>
+                <td>Body</td>
+                <td>Body</td>
+            </tr>
+            <tr>
+                <td>Body</td>
+                <td>Body</td>
+                <td>Body</td>
+            </tr>
+        </table>
+    </body>
+</html>
