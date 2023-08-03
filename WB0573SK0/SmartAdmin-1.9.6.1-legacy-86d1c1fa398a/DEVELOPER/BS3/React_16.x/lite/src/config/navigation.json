@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "title": "Dashboard",
+      "icon": "fa fa-lg fa-fw fa-home",
+      "route": "/home"
+    }
+  ]
+}
